@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  }
+.body{
+    color:#164863;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .body1{
+    width: 800px;
+  }
+  h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    height: 88px;
+    color: #164863;
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+  }
+  .button{
+    width: 24%;
+    margin-left: 38%;
+    height: 52px;
+    background-color: #427D9D;
+    color: #DDF2FD;
+    font-size: 24px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+  h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    height: 64px;
+    color: #164863;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  input::placeholder{
+    color: #9BBEC8;
+  }
+  .input{
+    height: 30px;
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 4px;
+    border-style: solid;
+    border-color: #427D9D;
+    border-width: 1.5px;
+    font-size: 16px;
+    color: #164863;
+    border-radius: 5px;
+    margin-bottom: 12px;
+  }
+  #input_id{
+    width: 100px;
+    text-align: center;
+  }
+  .input:focus{
+    color: #164863;
+    border-style: solid;
+    border-color: #427D9D;
+  }
+  .input:active{
+    color:#164863;
+    border-style: solid;
+    border-color:#427D9D;
+  }
+.id{
+  height: 30px;
+  width: 95%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 4px;
+  margin-bottom: 36px;
+}
+  
