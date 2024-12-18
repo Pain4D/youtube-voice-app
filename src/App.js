@@ -64,11 +64,15 @@ function App() {
             {output && (
                 <>
                     <h2>Результат обработки</h2>
-                    <video controls>
-                        <source src={`http://localhost:8000${output}`} type="video/mp4" />
-                        Ваш браузер не поддерживает видео.
-                    </video>
-                    <a class = "button" href={`http://localhost:8000${output}`} download>Скачать</a>
+                    <div class = "save_video">
+                        <video controls>
+                            <source src={`http://localhost:8000${output}`} type="video/mp4" />
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                        <div class = "button">
+                        <a class = "link" href={`http://localhost:8000${output}`} download>Скачать</a>
+                        </div>
+                    </div>
                 </>
             )}
         </div>
